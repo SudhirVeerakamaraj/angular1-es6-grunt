@@ -1,0 +1,37 @@
+{
+  "name": "angular1-es6-grunt",
+  "version": "1.0.0",
+  "description": "This is a sample project for creating angular1.x application using ES6 and typescript features along with Grunt as the build tool.",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt default && grunt watch",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudhirVeerakamaraj/angular1-es6-grunt.git"
+  },
+  "keywords": [
+    "angular1-es6"
+  ],
+  "author": "Sudhir Veerakamaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SudhirVeerakamaraj/angular1-es6-grunt/issues"
+  },
+  "homepage": "https://github.com/SudhirVeerakamaraj/angular1-es6-grunt#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.3.0",
+    "load-grunt-configs": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.14"
+  }
+}
